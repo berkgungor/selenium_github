@@ -35,7 +35,7 @@ namespace ConsoleApp1
             {               
                 driver.FindElement(By.XPath("/html/body/div[1]/header/div/div[2]/div[2]/a[1]")).Click();
                 driver.FindElement(By.Id("login_field")).SendKeys("brekgungor@gmail.com");
-                driver.FindElement(By.Id("password")).SendKeys("cibilicibili22");
+                driver.FindElement(By.Id("password")).SendKeys("*********");
                 driver.FindElement(By.XPath("/html/body/div[3]/main/div/form/div[4]/input[12]")).Click();
             }
             catch (NoSuchElementException)
